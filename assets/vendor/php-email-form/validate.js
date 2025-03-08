@@ -175,7 +175,7 @@
     });
 
     // Send the data as JSON
-    fetch('http://localhost:8000/api/mailreceived', {
+    fetch('https://portfolio-backend-q0y9.onrender.com/api/mailreceived', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
